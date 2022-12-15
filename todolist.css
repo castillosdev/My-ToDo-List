@@ -1,0 +1,25 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .todo-list-item {
+    @apply flex items-center mb-2;
+  }
+
+  .todo-list-item__deleteButton {
+    @apply bg-rose-900 text-white px-4 py-2 rounded font-medium;
+  }
+
+  .todo-list-item__deleteButton:hover {
+    @apply bg-rose-800;
+  }
+
+  .todo-list-item__editButton {
+    @apply bg-teal-900 text-white px-4 py-2 rounded font-medium;
+  }
+
+  .todo-list-item__editButton:hover {
+    @apply bg-teal-800;
+  }
+} */
